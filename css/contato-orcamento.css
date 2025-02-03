@@ -48,6 +48,7 @@
 
 
 .court-icon {
+    height: 40px;
     width: 40px;
     display: block;
     margin-bottom: 10px;
@@ -66,7 +67,22 @@ a:hover{
 
 }
 @media (max-width: 500px) {
+    .court-card{
+        width: 42%;
+        gap: 6px;
+        h2{
+            font-size: 16px;
+        }
+        p{
+            font-size: 11px;
+        }
+    }
     .court-icon{
+        height: 30px;
         width: 30px;
+        margin-bottom: 3px;
+    }
+    .court-link{
+        font-size: 11px;
     }
 }

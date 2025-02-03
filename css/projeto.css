@@ -19,7 +19,7 @@
 }
 
 .titulo-projeto {
-    width: 40%;
+    width: 50%;
     display: flex;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
@@ -32,7 +32,7 @@
         gap: 9px;
         li {
             display: flex;
-            font-size: 15px;
+            font-size: 20px;
             align-items: center;
             gap: 5px;
     
@@ -51,7 +51,7 @@
         font-family: 'Poppins', sans-serif;
         padding: 7px 9px;
         margin-left: 26px;
-        width: 30%;
+        width: 20%;
         text-align: center;
         box-shadow: 0 0 10px 0 #022d64;
         background-color: #004aad;
@@ -95,19 +95,19 @@
             display: flex;
             justify-content: center;
             ul{
-                padding: 0 26px;
+                padding: 10px;
                 li{
+                    font-size: 9.5px;
                     span{
                         text-align: start;
                     }
-                    font-size: 15px;
     
                 }
             }
             .contact-btn-projeto{
-                margin: 20px;
-                width: 90%;
+                width: 85%;
             }
         }
         
-    
+    }
+}
