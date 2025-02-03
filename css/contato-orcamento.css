@@ -2,6 +2,7 @@
     text-align: center  ;
     font-size: 30px;
     padding: 40px 0 0 0 ;
+    font-family: "Outfit", serif;
 }
 .court-section {
     display: flex;
@@ -15,7 +16,7 @@
 .court-card {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
     width: 40%;
     border: 1px solid #337ab7;
     padding: 20px;
@@ -27,7 +28,7 @@
     vertical-align: middle;
     p{
         font-family: 'Poppins', sans-serif;
-        font-size: 10px;
+        font-size: 11px;
     }
 }
 @keyframes flutuarOrca {
@@ -56,12 +57,16 @@
     color: #337ab7;
     text-decoration: none;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 14px;
     transition: 0.3s;
-    margin-left: 2px;
 }
 a:hover{
     transform: scale(1.02);
     color: rgb(3, 137, 255);
 
+}
+@media (max-width: 500px) {
+    .court-icon{
+        width: 30px;
+    }
 }

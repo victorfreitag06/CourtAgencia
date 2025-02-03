@@ -75,3 +75,39 @@
 
     
 }
+@media (max-width: 500px) {
+    @media (max-width: 500px) {
+        .projeto-container{
+            flex-direction: column;
+            justify-content: center;
+        }
+        .projeto{
+            width: 100%;
+            img{
+                width: 85%;
+                margin-bottom: 15px;
+            }
+    
+        }
+        .titulo-projeto{
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            ul{
+                padding: 0 26px;
+                li{
+                    span{
+                        text-align: start;
+                    }
+                    font-size: 15px;
+    
+                }
+            }
+            .contact-btn-projeto{
+                margin: 20px;
+                width: 90%;
+            }
+        }
+        
+    
