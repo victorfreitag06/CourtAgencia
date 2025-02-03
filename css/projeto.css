@@ -1,0 +1,77 @@
+.projeto-container {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(182deg, black, rgb(2, 0, 17), black);
+    color: white;
+    padding: 50px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.048);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.048);
+}
+
+.projeto {
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.projeto img {
+    width: 60%;
+}
+
+.titulo-projeto {
+    width: 40%;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    gap: 15px;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        li {
+            display: flex;
+            font-size: 15px;
+            align-items: center;
+            gap: 5px;
+    
+            span {
+                color: #c2ddbc;
+            }
+    
+            i {
+                color: green;
+                font-size: 20px;
+            }
+        }
+
+    }
+    .contact-btn-projeto {
+        font-family: 'Poppins', sans-serif;
+        padding: 7px 9px;
+        margin-left: 26px;
+        width: 30%;
+        text-align: center;
+        box-shadow: 0 0 10px 0 #022d64;
+        background-color: #004aad;
+        border-radius: 15px;
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: 0.3s;
+        
+    }
+    .contact-btn-projeto:hover {
+        transform: scale(1.05);
+        background-color: #022d64;
+      }
+}
+
+.titulo-projeto h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+
+    
+}

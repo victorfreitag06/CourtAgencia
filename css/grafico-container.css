@@ -1,0 +1,32 @@
+.grafico-container {
+    display: flex;
+    align-items: center;
+    background:linear-gradient(182deg, black , rgb(2, 0, 17), black);
+    color: white;
+    padding: 50px 0;
+}
+
+.grafico {
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.grafico img {
+    width: 60%;
+}
+
+.titulo-prin {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titulo-prin h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.titulo-prin .p{
+    font-weight: bold; font-size: 18px;
+}

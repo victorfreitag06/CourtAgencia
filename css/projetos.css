@@ -1,0 +1,63 @@
+.projetos-titulo{
+    text-align: center  ;
+    font-size: 30px;
+    padding: 40px 0 ;
+}
+.projetos{
+    padding: 60px 0;
+    background: linear-gradient(black,rgba(3, 0, 15, 0.466));
+    border-top: 1px solid rgba(255, 255, 255, 0.048);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.048);
+}
+.projetos-alinha{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+.card{
+    border: 1px solid #337ab7;
+    padding: 10px;
+    box-shadow: 0 0 80PX 0 #3379b71a;
+    position: relative;
+    animation: flutuarProj 5s ease-in-out alternate-reverse infinite;
+    vertical-align: middle;
+    img{
+        width: 280px;
+        height: 150px;
+    }
+    .info{
+        padding: 6px 0 0 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        button{
+            padding: 5px 25px;
+            border: 1px solid #337ab7;
+            background: black;
+            cursor: pointer;
+            p{
+                color: #337ab7;
+            }
+        }
+
+    }
+}    @keyframes flutuarProj {
+    0%{
+        border: 1px solid #2a5f8d;
+        box-shadow: 0 0 40PX 0 #3379b71a;
+    }
+    33%{
+        border: 1px solid #287ac2;
+        box-shadow: 0 0 50PX 0 #3379b728;
+    }
+    100%{
+        border: 1px solid #2589e0;
+        box-shadow: 0 0 55PX 0 #3379b760;
+    }
+}

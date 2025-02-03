@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .left {
+    max-width: 400px;
+  
+    .courtlogo {
+      display: flex;
+      align-items: center;
+      padding: 15px 0;
+  
+      .insta {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+  
+        img {
+          width: 70px;
+        }
+      }
+    }
+  
+    h1 {
+      font-size: 40px;
+  
+    }
+  
+    strong {
+      font-size: 50px;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+    }
+  
+    p {
+      margin: 15px 0;
+      font-size: 14px;
+    }
+  }
+  
+  
+  
+  .contact-btn {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 10px 30px;
+    box-shadow: 0 0 10px 0 #022d64;
+    background-color: #004aad;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .contact-btn:hover {
+    transform: scale(1.05);
+    background-color: #022d64;
+  }
+  
+  .right img {
+    width: 400px;
+    position: relative;
+    animation: flutuar 2s ease-in-out alternate-reverse infinite;
+    vertical-align: middle;
+  }
+  @keyframes flutuar {
+      0%{
+          top: 0;
+      }
+      100%{
+          top: 10px;
+      }
+  }

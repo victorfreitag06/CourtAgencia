@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário Court</title>
+        <link rel="stylesheet" href="../css/orcamento.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+        
+    </head>
+    
+    <body>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="f6b4dfb5-4072-47e5-b37d-bd95d5dc7ef0">
+            
+    <div class="container">
+        <a href="http://127.0.0.1:5500/"><span class="close">&times;</span></a>
+        <div class="left">
+            <img src="../images/banner-orcametno.png" alt="Ilustração">
+        </div>
+        <div class="right">
+            <h2>INFORME SEUS DADOS</h2>
+            <div class="inputs">
+                <label for="nome">Nome</label>
+                <input type="text" name="$nome" placeholder="Nome Completo" required>
+
+            </div>
+            <div class="row">
+                <div class="inputs">
+                        <label for="whatsApp">WhatsApp</label>
+                    <input type="text" name="$whatsApp" placeholder="(00)000000000" required>
+                </div>
+                <div class="inputs">
+                    <label for="cpf">Cpf</label>
+                    <input type="text" name="$cpf" placeholder="000.000.000-00" required>
+                </div>
+
+            </div>
+            <div class="inputs">
+                <label for="cpf">Email</label>
+                <input type="email" name="$email" placeholder="court@gmail.com"  required>
+            </div>
+            
+            <button type="submit">ENVIAR</button>
+        </div>
+    </div>
+    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/">
+</form>
+</body>
+
+</html>

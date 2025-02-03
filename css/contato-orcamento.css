@@ -1,0 +1,67 @@
+.contato-titulo{
+    text-align: center  ;
+    font-size: 30px;
+    padding: 40px 0 0 0 ;
+}
+.court-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(rgba(3, 0, 15, 0.452),transparent,rgba(3, 0, 15, 0.459));
+    color: white;
+    padding: 60px 0;
+}
+
+.court-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 40%;
+    border: 1px solid #337ab7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 80PX 0 #3379b71a;
+    text-align: left;
+    position: relative;
+    animation: flutuarOrca 5s ease-in-out alternate-reverse infinite;
+    vertical-align: middle;
+    p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+    }
+}
+@keyframes flutuarOrca {
+    0%{
+        border: 1px solid #2a5f8d;
+        box-shadow: 0 0 20PX 0 #3379b71a;
+    }
+    33%{
+        border: 1px solid #287ac2;
+        box-shadow: 0 0 22PX 0 #3379b728;
+    }
+    100%{
+        border: 1px solid #2589e0;
+        box-shadow: 0 0 25PX 0 #3379b760;
+    }
+}
+
+
+.court-icon {
+    width: 40px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.court-link {
+    color: #337ab7;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    transition: 0.3s;
+    margin-left: 2px;
+}
+a:hover{
+    transform: scale(1.02);
+    color: rgb(3, 137, 255);
+
+}
