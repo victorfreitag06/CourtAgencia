@@ -67,9 +67,14 @@ a:hover{
 
 }
 @media (max-width: 500px) {
+    .court-section{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
     .court-card{
-        width: 42%;
-        gap: 6px;
+        width: 46%;
+        gap: 8px;
         h2{
             font-size: 16px;
         }

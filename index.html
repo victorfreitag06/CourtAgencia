@@ -23,13 +23,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
     <title>Court</title>
     <link rel="shortcut icon" href="images/logo-png.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 800, // Tempo da animação
+                once: true, // Anima apenas uma vez
+            });
+        });
+    </script>
 </head>
 
 <body>
     <nav>
-        <ul>
+        <ul data-aos="fade-up">
             <a class="nav" href="#inicio">
-                <li class="li-nav">Incio</li>
+                <li class="li-nav">Início</li>
             </a>
             <a class="nav" href="#projetos">
                 <li class="li-nav">Projetos</li>
@@ -37,81 +50,83 @@
             <a class="nav" href="#contato">
                 <li class="li-nav">Contato</li>
             </a>
-            <a class="nav" href="src/pagamentos-aprovado.html">
-                <li class="li-nav">Pagamentos</li>
-            </a>
         </ul>
     </nav>
-    <section id="inicio" class="contato">
+
+    <section id="inicio" class="contato" data-aos="fade-up">
         <div class="container">
             <div class="left">
                 <div class="courtlogo">
-                    <div class="insta"><a href="https://www.instagram.com/court.sites/"><span>@court.sites</span></a><img src="images/insta-icone.png" alt=""></div>
+                    <div class="insta" data-aos="fade-right">
+                        <a href="https://www.instagram.com/court.sites/" target="_blank"><span>@court.sites</span></a>
+                        <img src="images/insta-icone.png" alt="">
+                    </div>
                 </div>
-                <h1>FAÇA SEU SITE <strong>COURT</strong></h1>
-                <p>"SEU NEGÓCIO ONLINE 24H POR DIA! TENHA UM SITE PROFISSIONAL E CONQUISTE MAIS CLIENTES."</p>
-                <a href="#" class="contact-btn">CONTATO</a>
+                <h1 data-aos="fade-up">FAÇA SEU SITE <strong>COURT</strong></h1>
+                <p data-aos="fade-up" data-aos-delay="200">
+                    "SEU NEGÓCIO ONLINE 24H POR DIA! TENHA UM SITE PROFISSIONAL E CONQUISTE MAIS CLIENTES."
+                </p>
+                <a href="#contato" class="contact-btn" data-aos="zoom-in" data-aos-delay="300">CONTATO</a>
             </div>
             <div class="right">
-                <img src="images/cellphone.png" alt="Celular">
+                <img src="images/cellphone.png" alt="Celular" data-aos="fade-left">
             </div>
         </div>
     </section>
 
-    <section id="projetos" class="projetos">
-        <div class="">
-            <h1 class="projetos-titulo">Projetos</h1>
-            <div class="cards">
-                <div class="card">
-                    <img src="images/courtxis.png" alt="">
-                    <div class="info">
-                        <h2>COURT-XIS</h2>
-                        <a href="#courtxis"><button>
-                                <p>SABER MAIS</p>
-                            </button></a>
-                    </div>
+    <section id="projetos" class="projetos" data-aos="fade-up">
+        <h1 class="projetos-titulo" data-aos="fade-up">Projetos</h1>
+        <div class="cards">
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+                <img src="images/courtxis.png" alt="">
+                <div class="info">
+                    <h2>COURT-XIS</h2>
+                    <a href="#courtxis"><button>
+                            <p>SABER MAIS</p>
+                        </button></a>
                 </div>
-                <div class="card">
-                    <img src="images/livrandocast.png" alt="">
-                    <div class="info">
-                        <h2>LIVRANDOCAST</h2>
-                        <a href="#livrandocast"><button>
-                                <p>SABER MAIS</p>
-                            </button></a>
-                    </div>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="200">
+                <img src="images/livrandocast.png" alt="">
+                <div class="info">
+                    <h2>LIVRANDOCAST</h2>
+                    <a href="#livrandocast"><button>
+                            <p>SABER MAIS</p>
+                        </button></a>
                 </div>
-                <div class="card">
-                    <img src="images/agendamento.png" alt="">
-                    <div class="info">
-                        <h2>AGENDAMENTOS</h2>
-                        <a href="#agendamento"><button>
-                                <p>SABER MAIS</p>
-                            </button></a>
-                    </div>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                <img src="images/agendamento.png" alt="">
+                <div class="info">
+                    <h2>AGENDAMENTOS</h2>
+                    <a href="#agendamento"><button>
+                            <p>SABER MAIS</p>
+                        </button></a>
                 </div>
             </div>
         </div>
     </section>
-    <h1 id="contato" class="contato-titulo">Entre em Contato</h1>
+
+    <h1 id="contato" class="contato-titulo" data-aos="fade-up">Entre em Contato</h1>
     <section class="court-section">
-        <div class="court-card">
+        <div class="court-card" data-aos="flip-left">
             <img src="images/icone-orcamento.png" alt="Ícone de orçamento" class="court-icon">
             <h2>FAZER ORÇAMENTO</h2>
             <p>FAÇA SEU ORÇAMENTO COM A COURT</p>
-            <a href="src/orcamento.html" class="court-link">SABER MAIS -></a>
+            <a href="src/orcamento.html" class="court-link" target="_blank">SABER MAIS -></a>
         </div>
-        <div class="court-card">
+        <div class="court-card" data-aos="flip-left" data-aos-delay="200">
             <img src="images/icone-hospedagem.png" alt="Ícone de hospedagem" class="court-icon">
-            <h2>HOSPEDE SEU SITE</h2    >
-            <p>FAÇA UM HOSPEDAGEM SEGURA E RÁPIDA</p>
-            <a href="src/hospedagem.html" class="court-link">SABER MAIS-></a>
+            <h2>HOSPEDE SEU SITE</h2>
+            <p>FAÇA UMA HOSPEDAGEM SEGURA E RÁPIDA</p>
+            <a href="src/hospedagem.html" class="court-link" target="_blank">SABER MAIS-></a>
         </div>
     </section>
-    <section class="grafico-container">
-        <div class="grafico">
+    <section class="grafico-container" data-aos="fade-up">
+        <div class="grafico" data-aos="zoom-in" data-aos-delay="100">
             <img src="images/grafico-com-sem-court.png" alt="Gráfico de vendas">
         </div>
-        <div class="titulo-prin">
+        <div class="titulo-prin" data-aos="fade-up" data-aos-delay="200">
             <h2>
                 Segundo o Sebrae, negócios que investem em um site próprio podem aumentar suas vendas em até 40%
             </h2>
@@ -126,64 +141,60 @@
             </p>
         </div>
     </section>
-    <section id="courtxis" class="projeto-container">
-        <div class="projeto">
+
+    <section id="courtxis" class="projeto-container" data-aos="fade-up">
+        <div class="projeto" data-aos="zoom-in" data-aos-delay="100">
             <img src="images/courtxis-site.png" alt="Gráfico de vendas">
         </div>
-        <div class="titulo-projeto">
-            <h2>
-                COURT-XIS
-            </h2>
-            <ul>
-                <li><i class="bi bi-check"></i><span>Site Responsivo: </span> Acesso fácil de qualquer dispositivo.</li>
-                <li><i class="bi bi-check"></i><span>Carrinho de Compras: </span> Facilidade para adicionar e revisar
-                    itens.</li>
-                <li><i class="bi bi-check"></i><span>Pedido via WhatsApp: </span> Finalize a compra rapidamente por
-                    mensagem.</li>
-                <li><i class="bi bi-check"></i><span>Experiência Prática e Rápida: </span> Pedidos sem complicação</li>
+        <div class="titulo-projeto" data-aos="fade-up" data-aos-delay="200">
+            <h2>COURT-XIS</h2>
+            <ul data-aos="fade-up">
+                <li><span><i class="bi bi-check"></i>Site Responsivo: </span><p> Acesso fácil de qualquer dispositivo.</p></li>
+                <li><span><i class="bi bi-check"></i>Carrinho de Compras: </span><p> Facilidade para adicionar e revisar
+                    itens.</p></li>
+                <li><span><i class="bi bi-check"></i>Pedido via WhatsApp: </span><p> Finalize a compra rapidamente por
+                    mensagem.</p></li>
+                <li><span><i class="bi bi-check"></i>Experiência Prática e Rápida: </span><p> Pedidos sem complicação</p></li>
             </ul>
-            <a href="https://courtxis.netlify.app/" class="contact-btn-projeto">VER SITE</a>
+            <div class="button-ver">
+            <a href="https://courtxis.netlify.app/" class="contact-btn-projeto" target="_blank">VER SITE</a></div>
         </div>
     </section>
-    <section id="livrandocast" class="projeto-container">
-        <div class="projeto">
+
+    <section id="livrandocast" class="projeto-container" data-aos="fade-up">
+        <div class="projeto" data-aos="zoom-in" data-aos-delay="100">
             <img src="images/livrandocast-site.png" alt="Gráfico de vendas">
         </div>
-        <div class="titulo-projeto">
-            <h2>
-                LIVRANDOCAST
-            </h2>
-            <ul>
-                <li><i class="bi bi-check"></i><span>Site Responsivo: </span> Acesso fácil de qualquer dispositivo.</li>
-                <li><i class="bi bi-check"></i><span>Carrinho de Compras: </span> Facilidade para adicionar e revisar
-                    itens.</li>
-                <li><i class="bi bi-check"></i><span>Pedido via WhatsApp: </span> Finalize a compra rapidamente por
-                    mensagem.</li>
-                <li><i class="bi bi-check"></i><span>Experiência Prática e Rápida: </span> Pedidos sem complicação</li>
+        <div class="titulo-projeto" data-aos="fade-up" data-aos-delay="200">
+            <h2>LIVRANDOCAST</h2>
+            <ul data-aos="fade-up">
+                <li><span><i class="bi bi-check"></i>Site Responsivo: </span><p>Acesso facilitado para ouvir e explorar conteúdos em qualquer dispositivo.</p></li>
+                <li><span><i class="bi bi-check"></i>Biblioteca Organizada: </span><p>Encontre facilmente seus episódios favoritos e descubra novas histórias.</p></li>
+                <li><span><i class="bi bi-check"></i>Compartilhamento Rápido: </span><p>Divulgue episódios diretamente para amigos e redes sociais.</p></li>
+                <li><span><i class="bi bi-check"></i>Experiência Imersiva: </span><p>Navegação intuitiva e conteúdos sempre à mão para uma jornada literária envolvente.</p></li>
             </ul>
-            <a href="https://livrando.net/" class="contact-btn-projeto">VER SITE</a>
+            <div data-aos="fade-up" class="button-ver">
+            <a href="https://livrando.net/" class="contact-btn-projeto" target="_blank">VER SITE</a></div>
         </div>
     </section>
-    <section id="agendamento" class="projeto-container">
-        <div class="projeto">
+
+    <section id="agendamento" class="projeto-container" data-aos="fade-up">
+        <div class="projeto" data-aos="zoom-in" data-aos-delay="100">
             <img src="images/agendamentos-sites.png" alt="Gráfico de vendas">
         </div>
-        <div class="titulo-projeto">
-            <h2>
-                AGENDAMENTOS
-            </h2>
-            <ul>
-                <li><i class="bi bi-check"></i><span>Site Responsivo: </span> Acesso fácil de qualquer dispositivo.</li>
-                <li><i class="bi bi-check"></i><span>Carrinho de Compras: </span> Facilidade para adicionar e revisar
-                    itens.</li>
-                <li><i class="bi bi-check"></i><span>Pedido via WhatsApp: </span> Finalize a compra rapidamente por
-                    mensagem.</li>
-                <li><i class="bi bi-check"></i><span>Experiência Prática e Rápida: </span> Pedidos sem complicação</li>
+        <div class="titulo-projeto" data-aos="fade-up" data-aos-delay="200">
+            <h2>AGENDAMENTOS</h2>
+            <ul data-aos="fade-up">
+                <li><span><i class="bi bi-check"></i>Site Responsivo: </span><p>Acesso fácil de qualquer dispositivo.</p></li>
+                <li><span><i class="bi bi-check"></i>Agendamento Simplificado </span><p>Reserve quadras e espaços esportivos de forma rápida e prática.</p></li>
+                <li><span><i class="bi bi-check"></i>Gestão de Disponibilidade </span><P>Confira horários disponíveis e agende sem complicação.</P></li>
+                <li><span><i class="bi bi-check"></i>Notificações e Lembretes </span><P>Receba atualizações para não perder seu horário.</P></li>
             </ul>
-            <a href="https://agendamento-court.netlify.app/" class="contact-btn-projeto">VER SITE</a>
+            <div data-aos="fade-up" class="button-ver" data-aos="fade-up">
+            <a href="https://agendamento-court.netlify.app/" class="contact-btn-projeto" target="_blank">VER SITE</a></div>
         </div>
     </section>
-    <footer class="court-footer">
+    <footer class="court-footer" data-aos="fade-up">
         <p>&copy; 2025 CourtXis - Todos os direitos reservados.</p>
         <nav>
             <a href="#">Política de Privacidade</a>
@@ -191,6 +202,7 @@
             <a href="#">Contato</a>
         </nav>
     </footer>
+
 
 </body>
 

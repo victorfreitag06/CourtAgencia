@@ -1,6 +1,7 @@
 .projeto-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     background: linear-gradient(182deg, black, rgb(2, 0, 17), black);
     color: white;
     padding: 50px 0;
@@ -9,7 +10,7 @@
 }
 
 .projeto {
-    width: 50%;
+    width: 60%;
     text-align: center;
     padding-top: 30px;
 }
@@ -29,15 +30,21 @@
     ul {
         display: flex;
         flex-direction: column;
-        gap: 9px;
+        gap: 19px;
         li {
             display: flex;
-            font-size: 20px;
-            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column  ;
+                
             gap: 5px;
-    
+            
             span {
+                font-size: 18px;
                 color: #c2ddbc;
+            }
+            P{
+                font-size: 16px;
+                margin-left: 26PX;
             }
     
             i {
@@ -49,14 +56,14 @@
     }
     .contact-btn-projeto {
         font-family: 'Poppins', sans-serif;
-        padding: 7px 9px;
-        margin-left: 26px;
-        width: 20%;
+        padding: 7px 19px;
+        margin-left: 30px;
+        width: 100%;
         text-align: center;
         box-shadow: 0 0 10px 0 #022d64;
         background-color: #004aad;
         border-radius: 15px;
-        font-size: 12px;
+        font-size: 15px;
         text-decoration: none;
         color: white;
         font-weight: bold;
@@ -93,19 +100,31 @@
             width: 100%;
             text-align: center;
             display: flex;
+            margin: 0;
             justify-content: center;
             ul{
-                padding: 10px;
+                display: none;
+                padding: 0 40px ;
                 li{
-                    font-size: 9.5px;
+                    p{  
+                        font-size: 16px;
+                        margin: 0;
+                    }
+                    
                     span{
+
                         text-align: start;
                     }
     
                 }
             }
             .contact-btn-projeto{
-                width: 85%;
+                width: 35%;
+                margin: 0;
+            }
+            .button-ver{
+                display: flex;
+                justify-content: center;
             }
         }
         
