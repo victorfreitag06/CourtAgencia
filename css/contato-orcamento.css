@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    background: linear-gradient(rgba(3, 0, 15, 0.452),transparent,rgba(3, 0, 15, 0.459));
+    background:linear-gradient(15deg, rgb(5, 0, 26), rgb(0, 0, 0));
     color: white;
     padding: 60px 0;
 }

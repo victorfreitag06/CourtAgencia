@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio Concluído</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background:linear-gradient(152deg, black , rgb(1, 17, 0), black);
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            transition: opacity 1s ease-in-out;
+        }
+        .container {
+            background: rgb(66, 66, 66);
+            background:linear-gradient(152deg, rgb(49, 49, 49),rgb(66, 66, 66));
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(119, 0, 255, 0.1);
+            transition: transform 1s ease-in-out;
+            p{
+                color: white;
+            }
+        }
+        h1 {
+            background: linear-gradient(90deg, #4CAF50, rgb(222, 255, 191));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+        }
+        .loader {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #555;
+        }
+        .progress-bar {
+            width: 100%;
+            background-color: #6b6b6b;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        .progress {
+            width: 0%;
+            height: 10px;
+            background:linear-gradient(145deg, #4CAF50,#002b02);
+            transition: width 1s linear;
+        }
+    </style>
+    <script>
+        let seconds = 5;
+        let progress = 0;
+        function updateCountdown() {
+            document.getElementById("countdown").innerText = seconds;
+            document.getElementById("progress").style.width = progress + "%";
+            if (seconds > 0) {
+                seconds--;
+                progress += 20;
+                setTimeout(updateCountdown, 1000);
+            } else {
+                document.body.style.opacity = "0";
+                document.querySelector(".container").style.transform = "scale(0.8)";
+                setTimeout(() => {
+                    window.location.href = "../index.html"; // Altere para a URL correta da tela inicial
+                }, 1000);
+            }
+        }
+        window.onload = updateCountdown;
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Ddados Enviados com Sucesso!</h1>
+        <p>Você será redirecionado para a tela inicial em <span id="countdown">5</span> segundos...</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(182deg, black, rgb(2, 0, 17), black);
+    background:linear-gradient(15deg, rgb(5, 0, 26), rgb(0, 0, 0),rgb(5, 0, 26),black,rgb(5, 0, 26));
     color: white;
     padding: 50px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.048);
