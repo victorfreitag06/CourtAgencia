@@ -4,6 +4,7 @@
     justify-content: space-around;
     padding: 20px 0px 80px 0;
     background:linear-gradient(15deg, rgb(5, 0, 26), rgb(0, 0, 0));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.048);
   }
   
   .left {
