@@ -13,6 +13,7 @@ html {
 body {
   background:linear-gradient(145deg, rgb(3, 0, 15)5%, rgb(0, 0, 0) 90%);
   color: white;
+  flex-wrap: wrap;
 }
 nav{
   display: flex;
@@ -38,6 +39,16 @@ li{
 .li-nav:hover{
 color: #a9ceff;
  transform: scale(1.05);
+}
+
+.divisao img{
+  display: none;
+  position: absolute;
+  z-index: 0;
+  top: 90%;
+  height: 150px;
+  width: 100%;
+  left: 0;
 }
 
 .court-footer {
@@ -74,5 +85,8 @@ color: #a9ceff;
     nav a{
       font-size: 2px;
     }
+  }
+  .divisao img{
+    display: block;
   }
 }

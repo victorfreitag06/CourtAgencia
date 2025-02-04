@@ -1,8 +1,11 @@
 .contato-titulo{
     text-align: center  ;
     font-size: 30px;
+
     padding: 40px 0 0 0 ;
+
     font-family: "Outfit", serif;
+
 }
 .court-section {
     display: flex;
@@ -10,7 +13,7 @@
     gap: 20px;
     background:linear-gradient(15deg, rgb(5, 0, 26), rgb(0, 0, 0));
     color: white;
-    padding: 60px 0;
+    padding: 60px 0px;
 }
 
 .court-card {

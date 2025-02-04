@@ -1,3 +1,6 @@
+html{scrollbar-color: var(--cor-cinza-3) transparent;
+scrollbar-width: thin;
+}
 * {
     margin: 0;
     padding: 0;
