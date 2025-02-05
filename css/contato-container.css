@@ -43,7 +43,7 @@
     strong {
       font-size: 80px;
       font-weight: 700;
-      font-family: "Outfit", serif;
+      font-family: 'Outfit', serif;
     }
   
     p {
@@ -74,10 +74,11 @@
   }
   
   .right img {
-    width: 500px;
+    width: 450px;
     position: relative;
     animation: flutuar 2s ease-in-out alternate-reverse infinite;
     vertical-align: middle;
+    z-index: 200;
   }
   @keyframes flutuar {
       0%{

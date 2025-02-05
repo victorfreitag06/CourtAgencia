@@ -47,12 +47,11 @@ li {
 }
 
 .divisao img {
-  display: none;
   position: absolute;
   z-index: 0;
-  top: 77%;
-  height: 150px;
-  width: 100%;
+  top: 78%;
+  height: 140px;
+  width: 110%;
   left: 0;
 }
 

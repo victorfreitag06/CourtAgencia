@@ -6,17 +6,18 @@
     color: white;
     padding: 50px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.048);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.048);
 
 }
 
 .projeto {
-    width: 60%;
+    width: 80%;
     text-align: center;
     padding-top: 30px;
 }
 
 .projeto img {
-    width: 60%;
+    width: 70%;
 }
 
 .titulo-projeto {

@@ -1,0 +1,131 @@
+.pricing {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(10deg, #000000, #000b1f,#000000 );
+    color: white;
+}
+
+.pricing h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.pricing-card {
+    background: linear-gradient(15deg, #202f41, #34455e,#1d2b3a );
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    border: 1px solid #007BFF;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 26, 255, 0.3);
+    transition: transform 0.3s;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+}
+
+.pricing-card-destaque {
+    background: linear-gradient(15deg, #1e2a38, #2d3c52);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    border: 2px solid #007BFF;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+}
+
+.pricing-card-destaque {
+    transform: scale(1.06);
+}
+
+.pricing-card:hover,
+.pricing-card-destaque:hover {
+    transform: scale(1.03);
+}
+
+
+.pricing-card h3,
+.pricing-card-destaque h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Outfit', serif;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #007BFF;
+}
+
+.pricing-card ul,
+.pricing-card-destaque ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card ul li,
+.pricing-card-destaque ul li {
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 15px;
+    border: 1px solid #96b0cc4f;
+    box-shadow: 0 0 5px 0 #0057b3a4;
+    font-family: 'Outfit', serif;
+}
+
+.check-icon {
+    color: #28a745;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007BFF;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+@media(max-width:500px){
+    .pricing-card-destaque{
+        width: 320px;
+        transform: scale(1);
+    }
+}

@@ -13,6 +13,7 @@
     color: white;
     padding: 20px;
     border-radius: 10px;
+    
 }
 
 .faq-item {
@@ -34,6 +35,7 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .faq-question:hover {
@@ -41,8 +43,7 @@
 }
 
 .faq-answer {
-    padding: 10px;
-    font-size: 14px;
+    font-size: 17px;
     color: #bbb;
     line-height: 1.5;
     background: #1f2531;
@@ -71,4 +72,18 @@
     opacity: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+@media(max-width: 500px){
+    .faq-question{
+        font-size: 18px;
+        line-height: 25px;
+
+    }
+    .arrow{
+        padding: 5px;
+    }
+    .faq-answer{
+        font-size: 15px;
+    }
 }
