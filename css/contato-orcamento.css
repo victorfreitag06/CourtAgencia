@@ -1,17 +1,20 @@
-.contato-titulo{
-    text-align: center  ;
+.contato-titulo {
+    text-align: center;
     font-size: 30px;
 
-    padding: 40px 0 0 0 ;
-
+    width: 1000px;
+    padding: 0 0 40px  0 ;
+ 
     font-family: "Outfit", serif;
 
 }
+
 .court-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    background:linear-gradient(15deg, rgb(5, 0, 26), rgb(0, 0, 0));
+    background: linear-gradient(15deg, rgb(5, 0, 26), rgb(0, 0, 0));
     color: white;
     padding: 60px 0px;
 }
@@ -29,21 +32,25 @@
     position: relative;
     animation: flutuarOrca 5s ease-in-out alternate-reverse infinite;
     vertical-align: middle;
-    p{
+
+    p {
         font-family: 'Poppins', sans-serif;
         font-size: 11px;
     }
 }
+
 @keyframes flutuarOrca {
-    0%{
+    0% {
         border: 1px solid #2a5f8d;
         box-shadow: 0 0 20PX 0 #3379b71a;
     }
-    33%{
+
+    33% {
         border: 1px solid #287ac2;
         box-shadow: 0 0 22PX 0 #3379b728;
     }
-    100%{
+
+    100% {
         border: 1px solid #2589e0;
         box-shadow: 0 0 25PX 0 #3379b760;
     }
@@ -64,33 +71,45 @@
     font-size: 14px;
     transition: 0.3s;
 }
-a:hover{
+
+a:hover {
     transform: scale(1.02);
     color: rgb(3, 137, 255);
 
 }
+
 @media (max-width: 500px) {
-    .court-section{
+    .contato-titulo{
+        z-index: 0; 
+        margin-top: 18px;
+        background-color: #010005;
+    }
+    .court-section {
         display: flex;
         justify-content: center;
         gap: 10px;
     }
-    .court-card{
+
+    .court-card {
         width: 46%;
         gap: 8px;
-        h2{
+
+        h2 {
             font-size: 16px;
         }
-        p{
+
+        p {
             font-size: 11px;
         }
     }
-    .court-icon{
+
+    .court-icon {
         height: 30px;
         width: 30px;
         margin-bottom: 3px;
     }
-    .court-link{
+
+    .court-link {
         font-size: 11px;
     }
 }

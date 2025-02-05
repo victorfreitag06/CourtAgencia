@@ -7,7 +7,7 @@
 .projetos{
 
     padding: 60px 0;
-    background:linear-gradient(145deg, rgb(5, 0, 26), rgb(0, 0, 0));
+    background:linear-gradient(145deg, black,rgb(5, 0, 26), rgb(0, 0, 0));
     border-top: 1px solid rgba(255, 255, 255, 0.048);
     border-bottom: 1px solid rgba(255, 255, 255, 0.048);
 }
