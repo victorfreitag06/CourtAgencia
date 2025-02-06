@@ -14,7 +14,7 @@ body {
 
   color: white;
   flex-wrap: wrap;
-  background:linear-gradient(1deg,  #080D19, rgb(0, 0, 0),#000c1d,#000c1d,#000c1d,#000,#000);
+  background:linear-gradient(1deg,  #080D19, rgb(0, 0, 0),#080D19,#080D19,#080D19,#000,#000);
 }
 
 nav {
