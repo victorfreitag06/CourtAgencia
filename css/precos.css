@@ -1,13 +1,14 @@
 .pricing {
     text-align: center;
     padding: 50px 20px;
-    background: linear-gradient(10deg, #000000, #000b1f,#000000 );
+
     color: white;
+
 }
 
 .pricing h2 {
     font-size: 32px;
-    margin-bottom: 20px;
+ 
 }
 
 .pricing-container {
@@ -40,7 +41,7 @@
     background: linear-gradient(15deg, #1e2a38, #2d3c52);
     padding: 20px;
     border-radius: 10px;
-    width: 350px;
+    width: 380px;
     border: 2px solid #007BFF;
     box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
     text-align: center;
@@ -73,10 +74,10 @@
 }
 
 .price {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
-    margin: 10px 0;
-    color: #007BFF;
+    margin: 2px 0;
+    color: #ffffff;
 }
 
 .pricing-card ul,
@@ -87,26 +88,54 @@
 
 .pricing-card ul li,
 .pricing-card-destaque ul li {
-    padding: 8px;
-    border-radius: 5px;
     display: flex;
+    padding-top: 10px;
     align-items: center;
     justify-content: flex-start;
     font-size: 15px;
-    border: 1px solid #96b0cc4f;
-    box-shadow: 0 0 5px 0 #0057b3a4;
+    border-top: 1px solid #96b0cc4f;
     font-family: 'Outfit', serif;
 }
 
-.check-icon {
-    color: #28a745;
-    margin-right: 10px;
-    font-size: 16px;
+.check-icon img{
+    width: 30px;
+    margin: 5px 5px 0 0;
+
+    
 }
+.inclusao{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.card-incluso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    background-color: #4a5d7277;
+    border-radius:  5px;
+    height: 120px;
+    border: 1px solid #8198b1;
+    i,img{
+        padding-top: 5px;
+        width: 30px;
+        font-size: 20px;
+        color: #8198b1;
+        text-align: center;
+    }
+    .incluso{
+        font-size: 12px;
+        padding: 3px;
+        font-family: 'Outfit', serif;
+    }
+}
+
 
 .btn {
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 0px;
     padding: 10px 20px;
     background: #007BFF;
     width: 100%;
@@ -115,9 +144,9 @@
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: background 0.3s;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .btn:hover {

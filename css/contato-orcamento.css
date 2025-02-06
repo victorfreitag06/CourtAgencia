@@ -1,12 +1,10 @@
 .contato-titulo {
     text-align: center;
     font-size: 30px;
-
     width: 1000px;
     padding: 0 0 40px  0 ;
- 
-    font-family: "Outfit", serif;
 
+    font-family: "Outfit", serif;
 }
 
 .court-section {
@@ -14,9 +12,9 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    background: linear-gradient(15deg, rgb(5, 0, 26), rgb(0, 0, 0));
+
     color: white;
-    padding: 60px 0px;
+    padding: 50px 0px;
 }
 
 .court-card {
@@ -81,8 +79,8 @@ a:hover {
 @media (max-width: 500px) {
     .contato-titulo{
         z-index: 0; 
-        margin-top: 18px;
-        background-color: #010005;
+        margin-top: 0px;
+
     }
     .court-section {
         display: flex;

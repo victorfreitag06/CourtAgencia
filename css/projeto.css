@@ -1,14 +1,18 @@
+
+.projetos{
+
+}
 .projeto-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(15deg,  rgb(0, 0, 0),rgb(5, 0, 26),black);
     color: white;
-    padding: 50px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.048);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.048);
+    padding: 40px 0;
 
 }
+
+
+
 
 .projeto {
     width: 80%;
