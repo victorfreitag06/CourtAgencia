@@ -12,10 +12,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #202f41;
+    background: #0d141b;
     border-radius: 5px;
     border: 1px solid #ffffff9a;
-
+    box-shadow: 0 0 80px 0 rgb(31, 31, 31);
     width: 350px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
@@ -27,10 +27,10 @@
 
 .projeto-image {
     width: 100%;
-    background: linear-gradient(0deg, #202f41, #34455e,#1d2b3a );
+    background: linear-gradient(0deg, #0d141b, #1b2431,#121a24 );
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    height: 300px;
+    height: 320px;
     object-fit: cover;
     display: flex;
     justify-content: center;
@@ -72,7 +72,7 @@
 }
 
 .btn-toggle {
-    background: #354356;
+    background: #2b3646;
     border: none;
     padding: 10px 15px;
     border: 1px solid #0f0f0f52;
@@ -95,7 +95,7 @@
 
 .button-ver a {
     display: inline-block;
-    background: #151f2b;
+    background: #0f161f;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     padding: 12px 0px;
