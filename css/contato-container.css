@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 20px 100px 90px 100px;
+    padding: 20px 00px 65px 100px;
     background:linear-gradient(0deg,#080D19, #080D19 9%, black 100%);
     border-bottom: 1px solid rgba(255, 255, 255, 0.048);
   }
@@ -58,7 +58,7 @@
   .contact-btn {
     font-family: 'Poppins', sans-serif;
     display: inline-block;
-    padding: 13px 40px;
+    padding: 12px 40px;
     box-shadow: 0 0 10px 0 #022d64;
     background-color: #004aad;
     border-radius: 15px;
@@ -74,7 +74,7 @@
   }
   
   .right img {
-    width: 400px;
+    width: 320px;
     position: relative;
     animation: flutuar 2s ease-in-out alternate-reverse infinite;
     vertical-align: middle;
@@ -110,6 +110,7 @@
     .left{
       width: 500px;
       padding-right: 50px;
+      margin-bottom: 35px;
       .courtlogo{
         padding: 5px 0;
         align-items: center;
@@ -132,7 +133,7 @@
       }
     }
     .right img{
-      width: 280px;
+      width: 230px;
       z-index: 2;
     }
   }
