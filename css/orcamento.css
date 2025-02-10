@@ -1,19 +1,23 @@
-html{scrollbar-color: var(--cor-cinza-3) transparent;
-scrollbar-width: thin;
+html {
+    scrollbar-color: var(--cor-cinza-3) transparent;
+    scrollbar-width: thin;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body {
 
+body {
+    background: linear-gradient(145deg, black,rgb(6, 0, 37));
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
 .container {
     justify-content: space-between;
     background: #000000;
@@ -26,26 +30,31 @@ body {
     position: relative;
     align-items: center;
 }
+
 .left {
     padding: 10px;
 }
-.left img{
+
+.left img {
     object-fit: cover;
     width: 200px;
     height: 100%;
 }
+
 .right {
     padding: 10px;
 }
+
 h2 {
     text-align: center;
     margin-bottom: 15px;
 }
 
-label{
+label {
     margin: 14px;
     font-size: 13px;
 }
+
 input {
     width: 100%;
     margin: 2px;
@@ -58,16 +67,19 @@ input {
     color: white;
     outline: none;
 }
+
 input::placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
+
 .row {
     display: flex;
     gap: 10px;
 }
+
 button {
     width: 100%;
-    padding: 4px 12px;
+    padding: 5px 12px;
     background: #004aad;
     border: 2px solid #004aad;
     border-radius: 15px;
@@ -76,12 +88,15 @@ button {
     font-weight: bold;
     transition: 0.3s;
     margin-top: 10px;
+    font-size: 13px;
 }
+
 button:hover {
     background: #012758;
     color: white;
     transform: scale(1.01);
 }
+
 .close {
     position: absolute;
     top: 10px;
@@ -92,29 +107,36 @@ button:hover {
     font-weight: bold;
     transition: 0.3s;
 }
+
 .close:hover {
     transform: scale(1.2);
 }
+
 .footer-logo {
     text-align: center;
     margin-top: 10px;
 }
 
-@media(max-width:500px){
-    .container{
+@media(max-width:500px) {
+    .container {
         padding: 5px;
         margin: 15px;
     }
-    .left{
-        display: none;        img{
+
+    .left {
+        display: none;
+
+        img {
             display: none;
         }
     }
-    .right{
-        label{
+
+    .right {
+        label {
             font-size: 12px;
         }
-        input{
+
+        input {
             padding: 7px 14px;
             font-size: 10px;
         }

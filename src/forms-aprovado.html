@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../images/logo-png.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Envio Concluído</title>
     <style>
         body {
@@ -11,7 +12,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background:linear-gradient(152deg, black , rgb(1, 17, 0), black);
+            background:linear-gradient(152deg, black , rgb(0, 1, 17), black);
             font-family: 'Poppins', sans-serif;
             text-align: center;
             transition: opacity 1s ease-in-out;
@@ -28,7 +29,7 @@
             }
         }
         h1 {
-            background: linear-gradient(90deg, #4CAF50, rgb(222, 255, 191));
+            background: linear-gradient(90deg, #4c4eaf, rgb(191, 197, 255));
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
         }
@@ -47,7 +48,7 @@
         .progress {
             width: 0%;
             height: 10px;
-            background:linear-gradient(145deg, #4CAF50,#002b02);
+            background:linear-gradient(145deg, #4e4caf,#09002b);
             transition: width 1s linear;
         }
     </style>
@@ -74,7 +75,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Ddados Enviados com Sucesso!</h1>
+        <h1>Dados Enviados com Sucesso!</h1>
+        <p style="color: #bdbaba; font-size: 13px;">ENTRAREMOS EM CONTATO</p>
         <p>Você será redirecionado para a tela inicial em <span id="countdown">5</span> segundos...</p>
         <div class="progress-bar">
             <div class="progress" id="progress"></div>

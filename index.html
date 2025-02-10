@@ -43,14 +43,15 @@
 <body>
     <nav>
         <ul data-aos="fade-up">
-            <a class="nav" href="#inicio">
-                <li class="li-nav">Início</li>
-            </a>
+
             <a class="nav" href="#projetos">
                 <li class="li-nav">Projetos</li>
             </a>
             <a class="nav" href="#contato">
                 <li class="li-nav">Contato</li>
+            </a>
+            <a class="nav" href="#planos">
+                <li class="li-nav">Planos</li>
             </a>
         </ul>
     </nav>
@@ -114,81 +115,89 @@
             </p>
         </div>
     </section>
-    <h2 style=" font-size: 30px;  text-align: center;  font-family: 'Outfit', serif; padding: 40PX 0 0px  0 ;">PROJETOS</h2>
+    <h2 style=" font-size: 30px;  text-align: center;  font-family: 'Outfit', serif; padding: 40PX 0 0px  0 ;">PROJETOS
+    </h2>
     <section id="projetos" class="projeto-container" data-aos="fade-up">
 
         <div class="projeto-card">
             <div class="projeto-image" data-aos="zoom-in" data-aos-delay="100">
-                <img id="projeto-img" src="../images/pc-courtxis.png" alt="Visualização do site" class="fade-img">
+                <img id="projeto-img-courtxis" src="../images/pc-courtxis.png" alt="Visualização do site"
+                    class="fade-img">
             </div>
             <div class="projeto-info" data-aos="fade-up" data-aos-delay="200">
                 <p class="subtitulo">PARA SUA LANCHONETE</p>
                 <h3>COURT-XIS</h3>
-
             </div>
-            <div class="button-group">
-                <button class="btn-toggle" onclick="trocarImagem('mobile')">MOBILE</button>
-                <button class="btn-toggle" onclick="trocarImagem('pc')">PC</button>
+            <div data-aos="fade-up" data-aos-delay="200"  class="button-group">
+                <button data-aos="fade-up" data-aos-delay="200"  class="btn-toggle" onclick="trocarImagem('mobile', 'courtxis')">MOBILE</button>
+                <button data-aos="fade-up" data-aos-delay="200"  class="btn-toggle" onclick="trocarImagem('pc', 'courtxis')">PC</button>
             </div>
-            <div class="button-ver">
-                <a href="https://courtxis.netlify.app/" class="contact-btn-projeto" target="_blank">VER PROJETO</a>
+            <div data-aos="fade-up" data-aos-delay="200"  class="button-ver">
+                <a data-aos="fade-up" data-aos-delay="200"  href="https://courtxis.netlify.app/" class="contact-btn-projeto" target="_blank">VER PROJETO</a>
             </div>
         </div>
-        <div style="transform: scale(1.07); :hover{transform: scale(1);}" class="projeto-card">
+
+        <!-- Livrando Cast -->
+        <div style="transform: scale(1.07);" class="projeto-card">
             <div class="projeto-image" data-aos="zoom-in" data-aos-delay="100">
-                <img id="projeto-img" src="../images/pc-courtxis.png" alt="Visualização do site" class="fade-img">
+                <img id="projeto-img-livrando" src="../images/pc-livrando.png" alt="Visualização do site"
+                    class="fade-img">
             </div>
             <div class="projeto-info" data-aos="fade-up" data-aos-delay="200">
-                <p class="subtitulo">PARA SUA LANCHONETE</p>
-                <h3>COURT-XIS</h3>
-
+                <p class="subtitulo">SEU PODCAST LITERÁRIO</p>
+                <h3>LIVRANDO CAST</h3>
             </div>
-            <div class="button-group">
-                <button class="btn-toggle" onclick="trocarImagem('mobile')">MOBILE</button>
-                <button class="btn-toggle" onclick="trocarImagem('pc')">PC</button>
+            <div data-aos="fade-up" data-aos-delay="200" class="button-group">
+                <button data-aos="fade-up" data-aos-delay="200" class="btn-toggle"
+                    onclick="trocarImagem('mobile', 'livrando')">MOBILE</button>
+                <button data-aos="fade-up" data-aos-delay="200" class="btn-toggle"
+                    onclick="trocarImagem('pc', 'livrando')">PC</button>
             </div>
-            <div class="button-ver">
-                <a href="https://courtxis.netlify.app/" class="contact-btn-projeto" target="_blank">VER PROJETO</a>
+            <div data-aos="fade-up" data-aos-delay="200" class="button-ver">
+                <a data-aos="fade-up" data-aos-delay="200" href="https://livrandocast.netlify.app/"
+                    class="contact-btn-projeto" target="_blank">VER PROJETO</a>
             </div>
         </div>
 
+        <!-- Court Agendamentos -->
         <div class="projeto-card">
             <div class="projeto-image" data-aos="zoom-in" data-aos-delay="100">
-                <img id="projeto-img" src="../images/pc-courtxis.png" alt="Visualização do site" class="fade-img">
+                <img id="projeto-img-court" src="../images/pc-court.png" alt="Visualização do site" class="fade-img">
             </div>
             <div class="projeto-info" data-aos="fade-up" data-aos-delay="200">
-                <p class="subtitulo">PARA SUA LANCHONETE</p>
-                <h3>COURT-XIS</h3>
-
+                <p class="subtitulo">AGENDAMENTO SIMPLIFICADO</p>
+                <h3>COURT AGENDAMENTOS</h3>
             </div>
-            <div class="button-group">
-                <button class="btn-toggle" onclick="trocarImagem('mobile')">MOBILE</button>
-                <button class="btn-toggle" onclick="trocarImagem('pc')">PC</button>
+            <div data-aos="fade-up" data-aos-delay="200"  class="button-group">
+                <button data-aos="fade-up" data-aos-delay="200"  class="btn-toggle" onclick="trocarImagem('mobile', 'court')">MOBILE</button>
+                <button data-aos="fade-up" data-aos-delay="200"  class="btn-toggle" onclick="trocarImagem('pc', 'court')">PC</button>
             </div>
             <div class="button-ver">
-                <a href="https://courtxis.netlify.app/" class="contact-btn-projeto" target="_blank">VER PROJETO</a>
+                <a data-aos="fade-up" data-aos-delay="200"  href="https://court-agendamentos.netlify.app/" class="contact-btn-projeto" target="_blank">VER
+                    PROJETO</a>
             </div>
         </div>
 
 
     </section>
 
-    <section class="pricing">
+    <section id="planos" class="pricing">
         <p data-aos="fade-up"
             style="text-align: center; font-size: 15px; color: #3b4b5a; padding: 60px 0 10px  0 ; font-family: 'Poppins', sans-serif; ">
             NOSSOS ORÇAMENTOS</p>
-        <h2 style="    font-family: 'Outfit', serif; padding: 0PX 0 60px  0 ;">ESCOLHA SEU PLANO</h2>
+        <h2 data-aos="fade-up" data-aos-delay="200" style="font-family: 'Outfit', serif; padding: 0PX 0 60px  0 ;">
+            ESCOLHA SEU PLANO</h2>
         <div class="pricing-container">
             <div class="pricing-card">
 
                 <p data-aos="fade-up"
                     style="text-align: center; font-size: 18px; color: #bec9d3; font-family: 'Poppins', sans-serif; ">
                     Em até 12x de</p>
-                <p class="price">R$ 100,40</p>
+                <p data-aos="fade-up" data-aos-delay="200"  class="price">R$ 100,40</p>
                 <p data-aos="fade-up"
                     style="text-align: center; font-size: 17px; color: #bec9d3; padding: 0px 0 15px  0 ; font-family: 'Poppins', sans-serif; ">
                     ou 999,00 à vista</p>
-                <ul>
+                <ul data-aos="fade-up" data-aos-delay="200">
 
                     <li>
                         <span class="check-icon"><img src="images/check.svg" alt=""></span>
@@ -223,7 +232,7 @@
                         style="text-align: center; font-size: 10px; color: #677786; padding-top:2px ; font-family: 'Poppins', sans-serif; ">
                         INCLUSO NA CONTRATAÇÃO</p>
                 </ul>
-                <a href="https://pay.kiwify.com.br/qctDDMt" class="btn">Escolher Plano</a>
+                <a data-aos="fade-up" data-aos-delay="200" href="https://pay.kiwify.com.br/qctDDMt" class="btn">Escolher Plano</a>
             </div>
 
             <div class="pricing-card-destaque">
@@ -231,11 +240,11 @@
                 <p data-aos="fade-up"
                     style="text-align: center; font-size: 18px; color: #bec9d3; font-family: 'Poppins', sans-serif; ">
                     Em até 12x de</p>
-                <p class="price">R$ 100,40</p>
+                <p data-aos="fade-up" data-aos-delay="200"  class="price">R$ 100,40</p>
                 <p data-aos="fade-up"
-                    style="text-align: center; font-size: 17px; color: #bec9d3; padding: 0px 0 15px  0 ; font-family: 'Poppins', sans-serif; ">
+                    style="text-align: center; font-size: 17px; color: #bec9d3; padding: 0px 0 15px  0 ; font-family: 'Poppins', sans-serif; " >
                     ou 999,00 à vista</p>
-                <ul>
+                <ul data-aos="fade-up" data-aos-delay="200">
 
                     <li>
                         <span class="check-icon"><img src="images/check.svg" alt=""></span>
@@ -270,7 +279,7 @@
                         style="text-align: center; font-size: 10px; color: #677786; padding-top:2px ; font-family: 'Poppins', sans-serif; ">
                         INCLUSO NA CONTRATAÇÃO</p>
                 </ul>
-                <a href="https://pay.kiwify.com.br/qctDDMt" class="btn">Escolher Plano</a>
+                <a data-aos="fade-up" data-aos-delay="200" href="https://pay.kiwify.com.br/qctDDMt" class="btn">Escolher Plano</a>
             </div>
 
             <div class="pricing-card">
@@ -278,11 +287,11 @@
                 <p data-aos="fade-up"
                     style="text-align: center; font-size: 18px; color: #bec9d3; font-family: 'Poppins', sans-serif; ">
                     Em até 12x de</p>
-                <p class="price">R$ 100,40</p>
+                <p data-aos="fade-up" data-aos-delay="200"  class="price">R$ 100,40</p>
                 <p data-aos="fade-up"
                     style="text-align: center; font-size: 17px; color: #bec9d3; padding: 0px 0 15px  0 ; font-family: 'Poppins', sans-serif; ">
                     ou 999,00 à vista</p>
-                <ul>
+                <ul data-aos="fade-up" data-aos-delay="200">
 
                     <li>
                         <span class="check-icon"><img src="images/check.svg" alt=""></span>
@@ -317,7 +326,7 @@
                         style="text-align: center; font-size: 10px; color: #677786; padding-top:2px ; font-family: 'Poppins', sans-serif; ">
                         INCLUSO NA CONTRATAÇÃO</p>
                 </ul>
-                <a href="https://pay.kiwify.com.br/qctDDMt" class="btn">Escolher Plano</a>
+                <a data-aos="fade-up" data-aos-delay="200" href="https://pay.kiwify.com.br/qctDDMt" class="btn">Escolher Plano</a>
             </div>
         </div>
     </section>
@@ -432,11 +441,11 @@
             });
         });
 
-        function trocarImagem(tipo) {
-            const img = document.getElementById('projeto-img');
+        function trocarImagem(tipo, projeto) {
+            const img = document.getElementById(`projeto-img-${projeto}`);
             img.style.opacity = 0;
             setTimeout(() => {
-                img.src = tipo === 'mobile' ? '../images/cell-courtxis.png' : '../images/pc-courtxis.png';
+                img.src = tipo === 'mobile' ? `../images/cell-${projeto}.png` : `../images/pc-${projeto}.png`;
                 img.style.opacity = 1;
                 img.style.transform = 'scale(1.05)';
                 setTimeout(() => img.style.transform = 'scale(1)', 300);
