@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background: linear-gradient(145deg, black,rgb(6, 0, 37));
+    background: linear-gradient(145deg, black,#152242);
     display: flex;
     justify-content: center;
     align-items: center;
