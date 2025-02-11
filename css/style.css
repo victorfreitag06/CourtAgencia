@@ -60,23 +60,24 @@ li {
   position: absolute;
   width: 100%;
   left: 0;
-  background-color: black;
+  background: linear-gradient(15deg,#000000,#04060B) ;
   z-index: 0;
 }
 
 /* Footer */
 footer {
-  background-color: #333;
+  background-color: #0e172c;
   color: white;
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
   font-size: 14px;
 }
 
 footer a {
-  color: #25D366; /* Cor do link (ex: WhatsApp) */
+  color: #a9ceff; /* Cor do link (ex: WhatsApp) */
   text-decoration: none;
   margin: 0 10px;
+  font-size: 18px;
 }
 
 footer a:hover {
@@ -88,7 +89,7 @@ footer a:hover {
 }
 
 .footer-links a {
-  margin: 0 15px;
+  margin: 0 5px;
 }
 
 

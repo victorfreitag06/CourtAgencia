@@ -15,7 +15,7 @@
     background: #0a1120;
     border-radius: 5px;
     border: 1px solid #ffffff9a;
-    box-shadow: 0 0 1000px 0 rgb(0, 0, 0);
+    box-shadow: 0 0 50px 0 #04070e;
     width: 350px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
