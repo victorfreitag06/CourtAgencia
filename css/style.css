@@ -14,7 +14,7 @@ body {
 
   color: white;
   flex-wrap: wrap;
-  background:linear-gradient(15deg,  #000000, rgb(0, 0, 0),#080D19,#0e172c,#080D19,#000,#000);
+  background:linear-gradient(0deg,  #000000, rgb(0, 0, 0),#080D19,#0e172c,#080D19,#000,#000);
 }
 
 nav {
@@ -60,7 +60,7 @@ li {
   position: absolute;
   width: 100%;
   left: 0;
-  background: linear-gradient(15deg,#000000,#04060B) ;
+  background: #000000 ;
   z-index: 0;
 }
 
